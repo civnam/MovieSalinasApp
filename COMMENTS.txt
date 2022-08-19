@@ -1,5 +1,5 @@
 /////////// ARQUITECTURA
-El desarrollo de la aplicación se llevó a cabo con el modelo MVVM (Model-View-ViewModel) puesto que presenta
+El desarrollo de la aplicación se llevó a cabo con la arquitectura MVVM (Model-View-ViewModel) puesto que presenta
 una estructura modular al separar en distintas capas la funcionalidad del código; debido a esto 
 su legibilidad y la incorporación de nuevas funciones (Así como el reciclaje de estas) es muy flexible. 
 Por otra parte, si bien se pudo haber utilizado MVC (Model-View-Controller), MVVM al manejar referencias para 
