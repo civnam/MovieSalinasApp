@@ -1,0 +1,52 @@
+/////////// ARQUITECTURA
+El desarrollo de la aplicación se llevó a cabo con el modelo MVVM (Model-View-ViewModel) puesto que presenta
+una estructura modular al separar en distintas capas la funcionalidad del código; debido a esto 
+su legibilidad y la incorporación de nuevas funciones (Así como el reciclaje de estas) es muy flexible. 
+Por otra parte, si bien se pudo haber utilizado MVC (Model-View-Controller), MVVM al manejar referencias para 
+la manipulación de datos permite que la lógica del código pueda ser implementada en distintas vistas sin la 
+necesidad de modificarla.
+Nota: El código corresponde al ciclo de vida SwiftUI
+
+/////////// LIBRERÍAS EXTERNAS
+No se utilizó ninguna
+
+/////////// FUTUROS TRABAJOS (MEJORAS EN CODIGO)
+El código podría ser sumamente reducido en la estructura de las vistas agregando extensiones del tipo View para 
+una mayor legibilidad de este; así mismo, la lógica implementada en el ViewModel podría comprimirse aún más 
+utilizando genéricos en la implementación de funciones.
+Por otro lado, la aplicación puede ser mejorada integrando una base de usuarios utilizando Firebase para 
+así tener una aplicación más controlada y versátil y, debido a que en la aplicación se recolectan los géneros 
+del programa, podría realizarse un filtrado para modelar un algoritmo y, de esta forma, incluir una pantalla extra 
+en la que aparezcan aquellos programas más apegados a los que el usuario ha seleccionado en favoritos.
+
+/////////// Problemas en el desarrollo de aplicación
+El problema presentado en el desarrollo del trabajo fue únicamente la implementación de alerta de error, 
+esto debido a que no tengo conocimiento sobre cómo forzar un error en tiempo real al momento de estar simulando 
+la aplicación; sin embargo, dichas alarmas pueden ser creadas a partir de la recepción de errores en las 
+declaraciones do catch.
+
+/////////// Adicionales implementados.
+
+-------------GENERALES---------------
+* Pantalla de carga personalizada al ingresar a la aplicación. (Welcome back to Salinas Home Theater)
+* Icono en la aplicación
+
+-------------PANTALLA P01---------------
+* El usuario puede elegir el esquema de color de la aplicación gracias a un lightingmode (Icono foco parte superior 
+derecha).
+* El usuario puede buscar el programa deseado en la barra Search (Parte superior).
+* Si los datos no son cargados adecuadamente, el usuario puede recargar la página deslizando hacia abajo en la pantalla
+
+-------------PANTALLA P02---------------
+* Los programas favoritos son desplegados en cartas para una mejor visualización de estos; así mismo, se añade un 
+botón (Corazón) para poder quitarlos de esta pantalla.
+* Si el usuario mantiene por un momento la presión en alguna de las imágenes se despliega un pequeño menú indicando 
+el horario del programa.
+* Si no existe un registro de favoritos se despliega una pantalla indicando este hecho.
+
+-------------PANTALLA P03---------------
+* El usuario puede visualizar el idioma, los géneros y el rating del programa.
+* La imagen es visualizada con un efecto gradiente.
+* Animación en el botón de corazón al efectuar una acción de favorito.
+
+
