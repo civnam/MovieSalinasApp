@@ -1,3 +1,5 @@
+**** La app fue probada en iOS 15.5 en el simulador de iPhone 12 Pro Max con la versión 13.4.1 de Xcode
+
 /////////// ARQUITECTURA
 El desarrollo de la aplicación se llevó a cabo con la arquitectura MVVM (Model-View-ViewModel) puesto que presenta
 una estructura modular al separar en distintas capas la funcionalidad del código; debido a esto 
