@@ -19,13 +19,13 @@ así tener una aplicación más controlada y versátil y, debido a que en la apl
 del programa, podría realizarse un filtrado para modelar un algoritmo y, de esta forma, incluir una pantalla extra 
 en la que aparezcan aquellos programas más apegados a los que el usuario ha seleccionado en favoritos.
 
-/////////// Problemas en el desarrollo de aplicación
+/////////// PROBLEMAS EN EL DESARROLLO DE APLICACION
 El problema presentado en el desarrollo del trabajo fue únicamente la implementación de alerta de error, 
 esto debido a que no tengo conocimiento sobre cómo forzar un error en tiempo real al momento de estar simulando 
 la aplicación; sin embargo, dichas alarmas pueden ser creadas a partir de la recepción de errores en las 
 declaraciones do catch.
 
-/////////// Adicionales implementados.
+/////////// ADICIONALES IMPLEMENTADOS
 
 -------------GENERALES---------------
 * Pantalla de carga personalizada al ingresar a la aplicación. (Welcome back to Salinas Home Theater)
